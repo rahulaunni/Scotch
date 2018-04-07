@@ -1,2 +1,2 @@
 # Scotch
-Scotch original version 
+Scotch (original version) with both Online and Offline mode.
