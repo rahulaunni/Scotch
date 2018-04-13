@@ -42,7 +42,7 @@ void checkButton() {
 }
 
 void encoder() {
-  if((millis()-lastmillis)>50){
+  if((millis()-lastmillis)>70){
   volatile int lastEncoded = 0;
   unsigned int encoderValue = 1;
   unsigned int lastencoderValue = 1;

@@ -126,7 +126,7 @@ void DROP::setAlrt(String alt)
 int DROP::MonRate()
 {
     int err;
-    int mon_rang = map(getR2setDPM(),5,250,10,5);
+    int mon_rang = map(getR2setDPM(),5,300,25,5);
      mon_rang = getR2setDPM()*mon_rang/100;
     err = getR2setDPM() - _rate;
     if (abs(err) < mon_rang) {
